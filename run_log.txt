@@ -1,0 +1,72 @@
+JDK: openjdk version "21.0.10" 2026-01-20
+=== src/examples/E01_ClassesObjects.java ===
+Book[Clean Code, Robert Martin, 464p]
+b1 == b2      : false
+b1.equals(b2) : true
+b1 pages after change through alias: 500
+[PASS] src/examples/E01_ClassesObjects.java
+=== src/examples/E02_Encapsulation.java ===
+ACC-1 balance=1300.0
+Rejected: deposit must be positive
+Rejected: insufficient funds
+[PASS] src/examples/E02_Encapsulation.java
+=== src/examples/E03_Inheritance.java ===
+Vehicle>Car>ElectricCar
+Tesla with 4 wheels, battery 75 kWh
+[PASS] src/examples/E03_Inheritance.java
+=== src/examples/E04_Polymorphism.java ===
+Circle    area = 3.14
+Rectangle area = 6.00
+Square    area = 16.00
+Total area = 25.14
+[PASS] src/examples/E04_Polymorphism.java
+=== src/examples/E05_Abstraction.java ===
+Asha: 60000.00
+Ravi: 20000.00
+Meena: 8000.00
+[PASS] src/examples/E05_Abstraction.java
+=== src/examples/E06_Interfaces.java ===
+Duck -> flaps wings [flying]
+Drone -> spins rotors [hovering]
+[PASS] src/examples/E06_Interfaces.java
+=== src/examples/E07_OverloadingOverriding.java ===
+print(o)    -> Object
+print("hi") -> String
+print('c')  -> int
+a.sound()   -> Woof
+[PASS] src/examples/E07_OverloadingOverriding.java
+=== src/examples/E08_Composition.java ===
+Petrol engine burns fuel -> moving
+Electric motor spins -> moving
+[PASS] src/examples/E08_Composition.java
+=== src/examples/E09_StaticAndConstructors.java ===
+static-init;instance-init;ctor(auto);instance-init;ctor(x);
+[PASS] src/examples/E09_StaticAndConstructors.java
+=== src/examples/E10_Misconceptions.java ===
+p.name -> Parent, ((Child) p).name -> Child
+a == b -> false, a.equals(b) -> true
+after change(): hi!
+[PASS] src/examples/E10_Misconceptions.java
+=== exercises/Solutions.java ===
+Exercise 01 PASS
+Exercise 02 PASS
+Exercise 03 PASS
+Exercise 04 PASS
+Exercise 05 PASS
+Exercise 06 PASS
+Exercise 07 PASS
+Exercise 08 PASS
+Exercise 09 PASS
+Exercise 10 PASS
+Exercise 11 PASS
+Exercise 12 PASS
+Exercise 13 PASS
+Exercise 14 PASS
+Exercise 15 PASS
+Exercise 16 PASS
+Exercise 17 PASS
+Exercise 18 PASS
+Exercise 19 PASS
+Exercise 20 PASS
+ALL 20 EXERCISES PASSED
+[PASS] exercises/Solutions.java
