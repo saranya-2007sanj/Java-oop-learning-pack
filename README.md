@@ -16,7 +16,7 @@ An AI-assisted, **verified** learning pack for second-year CSE students. Every c
 | 10 UML class diagrams (Mermaid) | `uml/UML.md` |
 | 20 exercises with solutions | `docs/exercises.md`, `exercises/Solutions.java` |
 | 15-question quiz + answer key | `docs/quiz.md` |
-| 7-slide presentation | `OOP_Learning_Pack.pptx` |
+| 7-slide presentation | `OOP_Learning_Pack.pptx` |  
 | Research report | `docs/research_report.md` |
 | Prompt library | `docs/prompt_library.md` |
 | Verification report (hallucination tests) | `docs/verification_report.md` |
